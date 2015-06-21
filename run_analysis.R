@@ -289,5 +289,5 @@ names(clean.ds) <- c(
   "fBodyBodyGyroJerkMag.mean",
   "fBodyBodyGyroJerkMag.std")
 
-write.csv(clean.ds,"tidy-data-set.csv",row.names=FALSE)
+write.table(clean.ds,"tidy-data-set.txt",row.names=FALSE)
 
